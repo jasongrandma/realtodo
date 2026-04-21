@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@rneui/base": "^5.0.0",
@@ -18,5 +19,9 @@
     "react-native": "0.81.5",
     "react-native-web": "^0.21.0"
   },
-  "private": true
+  "private": true,
+  "homepage": "https://jasongrandma.github.io/realtodo",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
